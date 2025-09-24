@@ -1,0 +1,105 @@
+{
+  "decreto_info": {
+    "numero": "6.239/2025",
+    "data": "23 de setembro de 2025",
+    "revoga": "Decreto 6.025/2024"
+  },
+  "fluxo_dfd": {
+    "title": "Fluxo do DFD - Passo a Passo",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Elaboração pela Unidade Demandante",
+        "description": "A unidade demandante elabora o DFD com todas as informações obrigatórias",
+        "requirements": [
+          "Identificação da unidade e responsável (nome, cargo, matrícula, e-mail)",
+          "Identificação da demanda",
+          "Código ID do Sistema Compras Manaus",
+          "Justificativa da necessidade",
+          "Estimativa de quantidade e valor",
+          "Unidade de medida e tipo de item",
+          "Previsão de data de entrega/início",
+          "Grau de prioridade (baixo, médio, alto)",
+          "Indicação dos membros da EPC"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Análise pela Autoridade Administrativa",
+        "description": "Análise preliminar, consolidação e unificação de demandas similares",
+        "actions": [
+          "Identificar vinculação com outros DFDs",
+          "Unificar demandas de mesma natureza",
+          "Verificar bens de consumo de luxo",
+          "Solicitar ajustes quando necessário"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "Autorização pela Autoridade Competente",
+        "description": "Decisão final sobre a autorização da demanda",
+        "outcomes": [
+          "Autorizada: Incluída no PCA",
+          "Não autorizada: Comunicação motivada à unidade demandante"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Comunicação Formal",
+        "description": "Informação oficial do resultado à unidade demandante",
+        "timeline": "No ano da divulgação do PCA"
+      }
+    ]
+  },
+  "cronograma_pca": {
+    "title": "Cronograma Anual do PCA",
+    "phases": [
+      {
+        "phase": "Apresentação dos DFDs",
+        "deadline": "Último dia útil de agosto",
+        "description": "Unidades demandantes apresentam os DFDs",
+        "responsible": "Unidades Demandantes"
+      },
+      {
+        "phase": "Consolidação dos DFDs",
+        "deadline": "Último dia útil de setembro",
+        "description": "Análise e consolidação das demandas",
+        "responsible": "Autoridade Administrativa"
+      },
+      {
+        "phase": "Aprovação do PCA",
+        "deadline": "Último dia útil de outubro",
+        "description": "Aprovação final do plano",
+        "responsible": "Autoridade Competente"
+      },
+      {
+        "phase": "Publicação",
+        "deadline": "14 de novembro",
+        "description": "Disponibilização no Compras Manaus e PNCP",
+        "responsible": "Autoridade Competente"
+      }
+    ],
+    "reviews": "Revisão semestral ou quando houver alterações significativas"
+  },
+  "finalidades_pca": [
+    "Promover a cultura do planejamento, racionalização e padronização das contratações",
+    "Ser utilizado como instrumento de governança no planejamento estratégico",
+    "Subsidiar a elaboração da proposta orçamentária",
+    "Evitar o fracionamento de despesas",
+    "Representar um indicador de demandas para o mercado fornecedor",
+    "Garantir alinhamento das contratações com o planejamento municipal"
+  ],
+  "despesas_obrigatorias": [
+    "Contratações diretas (dispensas e inexigibilidades)",
+    "Contratações com recursos de convênios",
+    "Todas as compras, obras e serviços em geral",
+    "Contratações de engenharia e tecnologia da informação",
+    "Renovações e prorrogações de contratos vigentes"
+  ],
+  "excecoes_pca": [
+    "Informações classificadas como sigilosas",
+    "Despesas por suprimento de fundos",
+    "Hipóteses dos incisos VI a VIII do art. 75 da Lei 14.133/2021",
+    "Contratações que não impliquem despesa a ser empenhada"
+  ]
+}
